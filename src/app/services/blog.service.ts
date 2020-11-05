@@ -14,19 +14,20 @@ export class BlogService {
   constructor(private http: HttpClient) { }
 
   getBlogs(): Observable< Blog[]> {
-    return this.http.get< Blog[]>('http://localhost:4200/assets/blog.json').
+    // return this.http.get< Blog[]>('http://localhost:4200/assets/blog.json').
+    return this.http.get< Blog[]>('https://pritam19896.github.io/my-portfolio/blog.json').
       pipe(
         catchError(this.handleError)
       );
     // return PRODUCTS;
   }
   handleError(error: HttpErrorResponse) {
-    let ErrorMessage = ''
+    let ErrorMessage = 'error occured';
     if (error.error instanceof ErrorEvent) {
       ErrorMessage = 'client Side error ->' + error.error;
     } else {
       ErrorMessage = `status ->${error.status} , body -> ${error.error}`;
     }
-    return throwError(ErrorMessage)
+    return throwError(ErrorMessage);
   }
 }
