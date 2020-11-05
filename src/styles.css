@@ -12,7 +12,39 @@ h1{
   }
 
   .carousel-indicators li {
-    background-color: #fb0000;
+    background-color: #fb0000 !important;
 }
 
+*{
+  background-color: whitesmoke !important;
+}
+
+body{
+  background-color: whitesmoke !important;
+}
+
+
+.carousel-indicators {
+  background-color: transparent !important;
+}
+.carousel-control-prev, .carousel-control-next {
+  background-color: transparent !important;
+}
+
+a.disabled {
+  background-color: #343a40 !important;
+}
+
+.navbar-collapse {
+  background-color:  #343a40 !important;
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+    background-color:  #343a40 !important;
+}
+}
+.navbar-nav .nav-link {
+  background-color:  #343a40 !important;
+}
 

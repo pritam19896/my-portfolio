@@ -5,3 +5,7 @@
 a.disabled {
   pointer-events: none;
 }
+
+.navbar{
+  background-color: black !important;
+}
