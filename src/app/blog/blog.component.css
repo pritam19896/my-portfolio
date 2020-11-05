@@ -1,0 +1,24 @@
+.imgsize{
+    display: block;
+    margin: 0.4rem auto;
+    max-width: 200px;
+}
+
+.txtproperty{
+    text-align: center;
+}
+
+.card{
+    margin: 4px;
+}
+
+.center-icon{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+/* h1{
+    text-align: center;
+  } */
+

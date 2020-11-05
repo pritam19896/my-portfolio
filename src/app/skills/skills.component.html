@@ -1,0 +1,23 @@
+<H1>{{msg}}</H1>
+<div class="container txtproperty">
+  <div class="row">
+    <div class="col-md-4 col-sm-12" *ngFor="let skill of skills">
+      <div class="card">
+        <div class="card-body">
+          {{skill.name}}
+          <span class="nameSpace">
+            <div class="outer" [style.width.px]="skill.ratingWidth">
+              <div [style.width.px]=90 >
+                <fa-icon [icon]="faStar" style="color:red;"></fa-icon>
+                <fa-icon [icon]="faStar" style="color:red;"></fa-icon>
+                <fa-icon [icon]="faStar" style="color:red;"></fa-icon>
+                <fa-icon [icon]="faStar" style="color:red;"></fa-icon>
+                <fa-icon [icon]="faStar" style="color:red;"></fa-icon>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

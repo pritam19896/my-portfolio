@@ -1,0 +1,21 @@
+.imgsize{
+    display: block;
+    margin: 1em auto;
+    width: 10em;
+}
+
+.txtproperty{
+    text-align: justify;
+}
+
+.card{
+    border: 0px solid rgba(0,0,0,.125);
+}
+
+.card-body {
+    padding: 1.75rem 0rem;
+}
+
+h1{
+    text-align: center;
+  }

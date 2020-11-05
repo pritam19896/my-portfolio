@@ -1,0 +1,17 @@
+<h1 class='top'>{{msg}}</h1>
+<div class="container txtproperty">
+    <div class="row" *ngFor='let blogdata of blogInfo'>
+      <div class=" col-lg-4 col-md-12 col-sm-12">
+        <img class="imgsize " [src]="blogdata.img" [alt]='blogdata.topic'>
+    </div>
+        <div class=" col-lg-7 col-md-12 col-sm-12">
+            <div class="card">
+                <h5 class="card-title">{{blogdata.topic}}</h5>
+                <div class="card-body">
+                    {{blogdata.content}}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
