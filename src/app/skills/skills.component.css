@@ -2,17 +2,16 @@
     display: inline;
     float: right;
   }
-  
+
   .card{
     border: 0px solid rgba(0,0,0,.125);
     border-bottom: 1px solid rgba(0,0,0,.125);
   }
-  
-  .outer{
+
+  .outter{
     overflow: hidden;
   }
-  
+
   h1{
     text-align: center;
   }
-  
