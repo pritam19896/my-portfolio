@@ -1,5 +1,5 @@
 .content-box{
-    padding-top:2em;
+    margin-top:2.1em;
 }
 
 img{
@@ -7,7 +7,7 @@ img{
 }
 
 
-.inner{
+/* .inner{
   background-color: black !important;
   width:70%;
   margin-left: 15%;
@@ -15,7 +15,7 @@ img{
 
 .outer{
   background-color: rgb(251, 74, 74) !important;
-}
+} */
 
 .img-size{
   width:80vw;

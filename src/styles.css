@@ -16,11 +16,15 @@ h1{
 }
 
 *{
-  background-color: whitesmoke !important;
+  /* background-color: whitesmoke !important; */
 }
 
 body{
-  background-color: whitesmoke !important;
+  /* background-color: whitesmoke !important; */
+}
+
+.navbar-light .navbar-toggler {
+  background: white;
 }
 
 
@@ -49,7 +53,10 @@ a.disabled {
 }
 
 .inner{
-  background-color: black !important;
+  /* background-color: rgba(0, 0, 0, 0.192) !important; */
+  background-color: white !important;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
   width:70%;
   margin-left: 15%;
 }
