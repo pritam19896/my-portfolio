@@ -4,22 +4,12 @@
 
 .imgsize{
     display: block;
-    margin: 1em auto;
+    margin: 2em auto;
     width: 12em;
     border: 0px white solid;
     border-radius: 50%;
-    position: relative;
+    box-shadow: 12px 15px mediumblue;
 }
-
-/* .back-bg{
-  margin: 1em auto;
-  width: 12em;
-  height: 12em;
-  border: 0px white solid;
-  border-radius: 50%;
-  background: #0062cc;
-  position: absolute;
-} */
 
 .txtproperty{
     text-align: justify;
@@ -27,6 +17,7 @@
 
 .card{
     border: 0px solid rgba(0,0,0,.125);
+    /* position: absolute; */
 }
 
 .card-body {
