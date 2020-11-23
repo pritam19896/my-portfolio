@@ -1,8 +1,25 @@
+.content-box{
+  margin-top:2.1em;
+}
+
 .imgsize{
     display: block;
     margin: 1em auto;
-    width: 10em;
+    width: 12em;
+    border: 0px white solid;
+    border-radius: 50%;
+    position: relative;
 }
+
+/* .back-bg{
+  margin: 1em auto;
+  width: 12em;
+  height: 12em;
+  border: 0px white solid;
+  border-radius: 50%;
+  background: #0062cc;
+  position: absolute;
+} */
 
 .txtproperty{
     text-align: justify;
