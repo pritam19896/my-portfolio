@@ -17,6 +17,7 @@ import { BlogDetailsComponent } from './blog/blog-details/blog-details.component
 import { HttpClientModule } from '@angular/common/http';
 
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
   {
@@ -40,7 +41,8 @@ const appRoutes: Routes = [
     ContactmeComponent,
     FooterComponent,
     MainComponent,
-    BlogDetailsComponent
+    BlogDetailsComponent,
+    HomeComponent
   ],
   imports: [
     NgbModule,

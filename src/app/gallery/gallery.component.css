@@ -6,19 +6,15 @@ img{
     width:100%;
 }
 
-
-/* .inner{
-  background-color: black !important;
-  width:70%;
-  margin-left: 15%;
-}
-
-.outer{
-  background-color: rgb(251, 74, 74) !important;
-} */
-
 .img-size{
-  width:80vw;
+  width:90vw;
+  /* height: 80vh; */
   height: auto;
 }
 
+@media (max-width: 750px){
+  .img-size{
+    width:100vw;
+    height: auto;
+  }
+}
