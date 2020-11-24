@@ -14,37 +14,37 @@ export class SkillsComponent implements OnInit {
   skills = [
     {
       name: 'ANGULAR 7',
-      rating: 3,
+      rating: 60,
       ratingWidth: null
     },
     {
       name: 'Html 5',
-      rating: 4.5,
+      rating: 85,
       ratingWidth: null
     },
     {
       name: 'Css 3',
-      rating: 3,
+      rating: 70,
       ratingWidth: null
     },
     {
       name: 'Js',
-      rating: 3,
+      rating: 60,
       ratingWidth: null
     },
     {
       name: 'Bootstrap 4',
-      rating: 4,
+      rating: 80,
       ratingWidth: null
     },
     {
       name: 'Ionic 3',
-      rating: 3,
+      rating: 60,
       ratingWidth: null
     },
     {
       name: 'Nodejs',
-      rating: 2.5,
+      rating: 50,
       ratingWidth: null
     }
   ];
