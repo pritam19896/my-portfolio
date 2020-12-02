@@ -1,12 +1,27 @@
-.font-size{
+
+*{
+background: black;
+}
+
+.card {
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
+  color:white;
+}
+
+.nameSpace{
+  font-style: bold;
+}
+
+.main-flex{
+  display:flex;
+  justify-content: center;
+}
+.fa-size{
     font-size: 23px;
-      position: absolute;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      margin-bottom: 1em;
   }
 
   .fa{
     margin-left:20px;
   }
+
+

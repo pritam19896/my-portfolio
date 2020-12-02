@@ -33,7 +33,7 @@ export class MainComponent implements OnInit {
         el = this.myElement.nativeElement.querySelector('app-blog');
         break;
       case 'contactme':
-        el = this.myElement.nativeElement.querySelector('app-contactme');
+        el = this.myElement.nativeElement.querySelector('app-footer');
         break;
     }
 

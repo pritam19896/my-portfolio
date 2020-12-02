@@ -9,7 +9,6 @@ import { HeaderComponent } from './header/header.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { SkillsComponent } from './skills/skills.component';
 import { BlogComponent } from './blog/blog.component';
-import { ContactmeComponent } from './contactme/contactme.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MainComponent } from './main/main.component';
@@ -38,7 +37,6 @@ const appRoutes: Routes = [
     AboutmeComponent,
     SkillsComponent,
     BlogComponent,
-    ContactmeComponent,
     FooterComponent,
     MainComponent,
     BlogDetailsComponent,
