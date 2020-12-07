@@ -32,20 +32,24 @@ h1{
 }
 
 a.disabled {
-  background-color: #343a40 !important;
+  background-color: black !important;
 }
 
 .navbar-collapse {
-  background-color:  #343a40 !important;
+  background-color: black !important;
 }
 
 @media (min-width: 992px){
   .navbar-expand-lg .navbar-nav .nav-link {
-    background-color:  #343a40 !important;
+    background-color:  black !important;
 }
 }
 .navbar-nav .nav-link {
-  background-color:  #343a40 !important;
+  background-color: black !important;
+}
+
+.bg-dark {
+  background-color: black !important;
 }
 
 /* .inner{

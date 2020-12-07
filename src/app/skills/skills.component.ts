@@ -28,7 +28,7 @@ export class SkillsComponent implements OnInit {
       ratingWidth: null
     },
     {
-      name: 'Js',
+      name: 'JavaScript',
       rating: 60,
       ratingWidth: null
     },
@@ -44,6 +44,11 @@ export class SkillsComponent implements OnInit {
     },
     {
       name: 'Nodejs',
+      rating: 50,
+      ratingWidth: null
+    },
+    {
+      name: 'Expressjs',
       rating: 50,
       ratingWidth: null
     }
