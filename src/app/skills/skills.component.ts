@@ -48,8 +48,13 @@ export class SkillsComponent implements OnInit {
       ratingWidth: null
     },
     {
-      name: 'Expressjs',
-      rating: 50,
+      name: 'Nestjs',
+      rating: 70,
+      ratingWidth: null
+    },
+    {
+      name: 'MySQL',
+      rating: 70,
       ratingWidth: null
     }
   ];
