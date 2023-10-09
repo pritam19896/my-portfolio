@@ -13,7 +13,7 @@ export class SkillsComponent implements OnInit {
 
   skills = [
     {
-      name: 'ANGULAR 7',
+      name: 'ANGULAR 10',
       rating: 60,
       ratingWidth: null
     },
