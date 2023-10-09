@@ -14,7 +14,7 @@ export class AboutmeComponent implements OnInit {
   }
 
   download() {
-    window.open('./assets/pritam_das_resume.pdf', 'Download');
+    window.open('./assets/PritamDas_Resume.pdf', 'Download');
   }
 
 }
