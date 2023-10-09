@@ -12,6 +12,10 @@
     margin: 4px;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
 .center-icon{
     display: flex;
     align-items: center;
